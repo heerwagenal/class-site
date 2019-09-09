@@ -1,0 +1,40 @@
+body {
+  background: ivory;
+}
+
+h1 {
+  color: red;
+  font-size: 80px;
+  font-family: cursive;
+  border-bottom: 10px dashed gold;
+  margin-bottom: 60px;
+}
+
+h2 {
+  color: ivory;
+  background: tan;
+  width: 300px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: red;
+  font-size: 24px;
+  font-family: 'Hepta Slab', serif;
+  margin-top: 60px;
+}
+
+p {
+  color: darkblue;
+  font-family: 'Hepta Slab', serif;
+}
+
+a {
+  color: ivory;
+  background: tan;
+  width: 300px;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-style: oblique;
+}

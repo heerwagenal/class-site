@@ -6,7 +6,7 @@ h1 {
   margin-left: 40px;
   text-shadow: 0 0 8px #FF0000;
   transition: color .25s ease,
-              text-shadow: .25s ease;
+  text-shadow: .25s ease;
 }
 
 h1:hover {
@@ -24,4 +24,11 @@ a {
   text-decoration-color: pink;
   text-decoration-style: wavy;
   margin-left: 40px;
+}
+
+.big-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }

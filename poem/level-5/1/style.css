@@ -1,0 +1,15 @@
+em {
+  font-size: 64px;
+  color: orangered;
+  font-weight: bolder;
+}
+
+big {
+  font-weight: lighter;
+  text-shadow: 2px 2px red;
+}
+
+p {
+  letter-spacing: 4px;
+  color: brown;
+}

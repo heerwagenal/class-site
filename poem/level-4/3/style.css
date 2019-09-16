@@ -1,0 +1,16 @@
+big {
+  color: lightgray;
+  position: fixed;
+}
+
+h6 {
+  text-transform: lowercase;
+  color: red;
+  letter-spacing: 3px;
+}
+
+small {
+font-size: 64px;
+font-family: cursive;
+color: magenta;
+}

@@ -1,0 +1,17 @@
+big {
+  color: yellowgreen;
+  border: dotted;
+  border-radius: 15px;
+}
+
+li {
+  color: lightblue;
+}
+
+em {
+  color: lightblue;
+}
+
+small {
+  color: plum;
+}

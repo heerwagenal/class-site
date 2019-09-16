@@ -1,0 +1,18 @@
+big {
+  margin-left: 135px;
+  width: 400px;
+  height: 400px;
+  position: sticky;
+  display: grid;
+}
+
+p {
+  position: relative;
+  color: darkgreen;
+}
+
+em {
+  padding-left: 80px;
+  padding-right: 80px;
+  color: black;
+}

@@ -1,3 +1,7 @@
+body {
+	cursor: url('images/berry.cur'), default;
+}
+
 h1 {
   color: pink;
   font-stretch: extra-expanded;
@@ -17,11 +21,20 @@ h1:hover {
 a {
   color: ivory;
   background: tan;
-  width: 300px;
+  width: 100px;
   font-size: 40px;
   font-family: sans-serif;
   font-style: oblique;
   text-decoration-color: pink;
   text-decoration-style: wavy;
   margin-left: 40px;
+  cursor: url('images/milk.cur'), default;
+}
+
+.float-title {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 20px;
+  z-index: -1;
 }

@@ -1,0 +1,44 @@
+a {
+  text-decoration-style: wavy;
+  text-decoration-color: orange;
+  color: darkgreen;
+  font-size: 24px;
+  font-family: cursive;
+}
+
+.button {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background .75s ease,
+              height .75s ease;
+}
+
+.button:hover {
+  background: pink;
+  height: 900px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.image {
+  display: none;
+  position: fixed;
+}
+
+.hover-img:hover .image {
+  display: block;
+}

@@ -1,0 +1,29 @@
+html {
+  background: lightpink;
+}
+
+img {
+  position: fixed;
+  height: 85vh;
+  right: 60px;
+  top: 60px;
+  bottom: 60px;
+  filter: blur(15px);
+
+}
+
+a {
+  color: darkgreen;
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  font-family: 'Fredoka One', cursive;
+}
+
+img:hover {
+  filter: blur(0);
+}
+
+a:hover {
+  color: ivory;
+}

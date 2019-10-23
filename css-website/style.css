@@ -1,0 +1,32 @@
+p {
+  color: lightblue;
+  font-size: 69px;
+  font-family: monospace;
+  border: 14px dashed orange;
+  border-left: 6px dashed orange;
+  border-radius: 14px;
+  width: 500px;
+  margin-left: 200px;
+  margin: 0 auto;
+    /* this centers elements */
+  padding: 20px;
+  padding-left: 69px;
+  text-align: justify;
+}
+.body-p {
+  font-size: 123px;
+}
+.good {
+  font-family: cursive;
+}
+#puppy {
+  background: yellow;
+  color: rgb(600,0,80);
+}
+.square {
+  background: lightblue;
+  height: 40px;
+  width: 40px;
+  margin: 0 0 69 0px;
+  margin-bottom: 69px;
+}

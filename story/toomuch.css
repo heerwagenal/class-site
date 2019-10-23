@@ -1,0 +1,37 @@
+html {
+  background: ivory;
+}
+
+p {
+  color: plum;
+  position: absolute;
+  bottom: 90px;
+  left: 60px;
+  font-family: 'Fredoka One', cursive;
+}
+
+img {
+  position: fixed;
+  height: 85vh;
+  right: 60px;
+  top: 60px;
+  bottom: 60px;
+
+}
+
+img:hover {
+  transform: scale(2.75);
+  filter: grayscale(60%);
+}
+
+a {
+  color: darkgreen;
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  font-family: 'Fredoka One', cursive;
+}
+
+a:hover {
+  color: lightblue;
+}

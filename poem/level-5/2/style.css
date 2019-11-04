@@ -1,0 +1,22 @@
+em {
+  font-size: 64px;
+  color: plum;
+  font-weight: bolder;
+}
+
+big {
+  font-weight: lighter;
+  text-shadow: 2px 2px plum;
+}
+
+p {
+  letter-spacing: 4px;
+  color: brown;
+}
+
+em:hover {
+  text-decoration: line-through;
+  text-transform: uppercase;
+  color: orangered;
+  text-decoration-color: brown;
+}

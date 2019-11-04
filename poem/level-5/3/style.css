@@ -1,0 +1,28 @@
+body {
+  background: grey;
+}
+
+p {
+  color: white;
+}
+
+li {
+  color: black;
+}
+
+big:hover {
+  font-style: oblique;
+  font-family: cursive;
+  font-size: 98px;
+  filter: blur(3px);
+  position: absolute;
+}
+
+em:hover {
+  color: lightblue;
+  font-style: oblique;
+  font-family: cursive;
+  font-size: 60px;
+  filter: blur(3px);
+  position: absolute;
+}

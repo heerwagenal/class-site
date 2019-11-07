@@ -1,0 +1,38 @@
+h1 {
+  color: pink;
+  font-stretch: extra-expanded;
+  font-family: 'Vampiro One', cursive;
+  font-size: 72px;
+  margin-left: 40px;
+  text-shadow: 0 0 8px #FF0000;
+  transition: color .25s ease,
+  text-shadow: .25s ease;
+}
+
+h1:hover {
+  color: white;
+  text-shadow: 0 0 8px #FADADD;
+}
+
+a {
+  color: ivory;
+  background: tan;
+  width: 300px;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-style: oblique;
+  text-decoration-color: pink;
+  text-decoration-style: wavy;
+  /* margin-left: 40px; */
+}
+
+.big-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: space-around;
+}
+
+img {
+  height: 70vh;
+}

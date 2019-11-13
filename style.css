@@ -38,3 +38,32 @@ a {
   padding-right: 20px;
   z-index: -1;
 }
+
+.image {
+	position: fixed;
+	top: 150px;
+	right: 600px;
+	padding-right: 20px;
+	z-index: -2;
+}
+
+img {
+	display: flex;
+	align-items: right;
+	align-content: right;
+	justify-content: right;
+	height: 25vh;
+	animation: flash 4s alternate ease infinite;
+}
+
+/* image:hover {
+	filter: blur(3px);
+	transform: rotate(30px);
+} */
+
+@keyframes flash {
+  0% {opacity: 0;}
+	40% {opacity: 50;}
+	60% {opacity: 50;}
+  100% {opacity: 100;}
+}

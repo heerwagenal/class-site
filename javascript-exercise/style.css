@@ -1,0 +1,19 @@
+.style {
+  width: 100%;
+  padding: 25px;
+  background-color: lightblue;
+  color: ivory;
+  font-size: 40px;
+}
+
+.marquee {
+  width: 600px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: orangered;
+}
+
+.ver {
+  height: 30px;
+  width: 200px;
+}

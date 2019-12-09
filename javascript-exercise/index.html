@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>javascript exercise</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <div onclick="toggle()">click me...!</div>
+  <div id="box">meet: the box</div>
+
+  <div class="marquee ver" data-direction='down' data-duration=1000>bunnies are <b>soft</b> until they get wet and then their fur grips your hand as you pet them and comes off in stringy bits because it is <b>fine</b> hair and cannot handle moisture</div>
+  <br/>
+
+  <script src="path-to-js/jquery.js"></script>
+  <script src="path-to-js/jquery.marquee.js"></script>
+  <script src="path-to-js/functions.js"></script>
+  <script>
+  function toggle() {
+  var element = document.getElementById("box");
+  element.classList.toggle("style");
+  }
+  </script>
+
+  </body>
+</html>
